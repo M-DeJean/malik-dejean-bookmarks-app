@@ -1,0 +1,117 @@
+body{
+    background-color: dimgray;
+}
+    main{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    border-bottom: 1px black solid;
+    padding: 20px;
+    margin: 0px;
+    background-color: lightslategrey;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.bookmarks {
+    list-style: none;
+    padding-left: 0;
+    margin: 0px;
+}
+
+.group1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    background-color: slategray;
+    margin: auto;
+}
+
+.group2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+    border-top: 1px solid black;
+    background-color: lightslategrey;
+}
+
+.expand {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    background-color: slategrey;
+}
+
+.expand-item {
+    flex: 1;
+    padding: 5px;
+    display: inline-flex;
+    margin: auto;
+}
+
+.item {
+    flex: 1;
+    
+}
+
+#buttons{
+    justify-items: center;
+}
+
+.describe {
+    border-top: black solid 1px;
+    background-color: rgb(148, 156, 165);
+    height: 50px;
+}
+
+.describe > p {
+    margin: 0px;
+    padding-top: 15px;
+}
+
+.form {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: lightslategray;
+    padding: 10px 0px;
+}
+
+.add {
+    display: block;
+    padding: 10px;
+    margin: auto;
+    width: 200px;
+    margin-bottom: 5px;
+
+}
+
+.hidden{
+    display: none;
+}
+
+input[type="radio"] {
+    display:inline;
+}
+
+
+
+@media all and (min-width: 800px) {
+    main{
+        width: 50%;
+    }
+
+    input[type="radio"] {
+        cursor: pointer;
+    }
+
+}
