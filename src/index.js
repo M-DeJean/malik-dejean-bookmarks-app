@@ -12,6 +12,8 @@ const main = function() {
     bookmarks.handleNewBm();
     bookmarks.handleNewBmSubmit();
     bookmarks.handleDeleteClicked();
+    bookmarks.handleFilter();
+    bookmarks.handleCancel();
     console.log(store.bookmarks);
     api.read()
         .then((items) => {

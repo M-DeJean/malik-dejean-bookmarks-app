@@ -1,6 +1,7 @@
 const bookmarks = [];
 let error = null;
 let hidden = true;
+let rating = null;
 
 const findId = function(id) {
 
@@ -23,5 +24,6 @@ export default {
     hidden,
     findId,
     newBm,
-    deleteItem
+    deleteItem,
+    rating
 }
