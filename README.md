@@ -2,7 +2,7 @@ Bookmarks App
 
 Created by Malik DeJean
 
-GH Pages Link: 
+GH Pages Link: https://thinkful-ei-rabbit.github.io/malik-dejean-bookmarks-app/
 
 Uses Thinkful's API to allow users to create custom bookmarks!
 
