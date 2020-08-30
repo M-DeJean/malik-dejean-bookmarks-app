@@ -11,10 +11,16 @@ const findId = function(id) {
 }
 
 const newBm = function(bm) {
+
+    //adds a new bookmark to the bookmarks array
+
     this.bookmarks.push(bm);
 };
 
 const deleteItem = function (id) {
+
+    //filters out item matching the id that is to be deleted
+    
     this.bookmarks = this.bookmarks.filter(item => item.id !== id);
 }
 

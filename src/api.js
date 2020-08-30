@@ -1,3 +1,5 @@
+// URL required for API calls
+
 const BASE_URL = 'https://thinkful-list-api.herokuapp.com/malik/bookmarks';
 
 /*--------------------PROMISE ERROR HANDLING--------------------*/

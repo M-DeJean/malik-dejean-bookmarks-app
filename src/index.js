@@ -7,14 +7,7 @@ import bookmarks from './bookmarks'
 import store from './store'
 
 const main = function() {
-    bookmarks.render();
-    bookmarks.handleBmClicked();
-    bookmarks.handleNewBm();
-    bookmarks.handleNewBmSubmit();
-    bookmarks.handleDeleteClicked();
-    bookmarks.handleFilter();
-    bookmarks.handleCancel();
-    console.log(store.bookmarks);
+    bookmarks.eventHandlers();
     api.read()
         .then((items) => {
             items.forEach((item) => store.newBm(item));
