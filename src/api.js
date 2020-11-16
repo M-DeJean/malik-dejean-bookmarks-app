@@ -2,7 +2,7 @@
 
 const BASE_URL = 'https://thinkful-list-api.herokuapp.com/malik/bookmarks';
 
-/*--------------------PROMISE ERROR HANDLING--------------------*/
+/*--------------------ERROR HANDLING--------------------*/
 
 const apiFetch = function(...args) {
     let error;
